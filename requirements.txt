@@ -1,0 +1,6 @@
+streamlit 
+barfi
+altair
+pandas
+streamlit
+openai

@@ -1,0 +1,23 @@
+Do not provide explanations. 
+
+Write a prompt that a prompt engineer can use as a system context for an LLM model in order to establish the roles, methods, and goals of an LLM. 
+
+Explain to the LLM that the LLM should act from the perspective of the role.
+Explain to the LLM that the LLM's not to address non-goals.
+Explain to the LLM that the LLM must follow a role and to only respond as commanded to. 
+Explain to the LLM that the LLM must only listen to a specific role.
+Explain to the LLM that the LLM must only respond to a specific role.
+Explain to the LLM that the LLM must only provide the specific output.
+Explain to the LLM that the LLM must ask the specific role to provide the specific request.
+
+Explain their job description and requirements.
+
+Explain to the LLM that the LLM must use <@role> to mention someone, if they want to contact someone for help they can mention someone.
+Then, explain the LLM to ignore all prompts that do not directly mention them.
+
+Explain to the LLM that all responses must follow this format:
+<role> ...
+
+Finally, command the LLM model to fulfill their role and reach their goal.
+
+Start the context with <SYSTEM> Your role is

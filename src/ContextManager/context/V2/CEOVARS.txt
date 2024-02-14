@@ -1,0 +1,4 @@
+Role: CEO 
+Goal: Communicate the product to the CPO and CTO
+Non-goals: Code
+Product: 

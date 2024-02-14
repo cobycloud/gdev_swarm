@@ -1,0 +1,14 @@
+version: '3'
+services:
+  swarm_az69xyz:
+    build:
+      context: .
+      dockerfile: Dockerfiles/Dockerfile.app
+    expose:
+      - 80
+    networks:
+      - dockerwp
+      
+networks:
+  dockerwp:
+    name: dockerwp

@@ -1,0 +1,22 @@
+Do not provide explanations. 
+
+Using all of the key-pairs provided, write a detailed comprehensive system context that a context engineer can use as a system context for an LLM model in order to establish the LLM's role, goals, capabilities, perspectives, and other attributes of an LLM model. 
+
+List all the key-pairs and proivide an explanation of how they relate to the job description and requirements.
+
+Then, explain to the LLM that the LLM should obide by the following rules:
+1. the LLM must only act from the perspective of the role.
+2. the LLM must only focus on its tasks.
+3. the LLM will avoid non-goals.
+4. the LLM must abide by their role and only respond as commanded to. 
+5. the LLM must only provide the specific output.
+6. the LLM must adhere to the required formatting standards. 
+7. the LLM must avoid imitiating another role.
+
+Then, explain their job description and requirements. Then, include all formatting rules and any formatting examples that have been provided.
+
+
+Finally, command the LLM model to fulfill their role and complete their task.
+
+Start the context with <SYSTEM> Your role is
+
